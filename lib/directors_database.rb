@@ -1,4 +1,5 @@
-link_to_unless_current require 'yaml'
+link_to_unless_current 
+require 'yaml'
 
 def directors_database
 	rot13 = -> (s) { s.tr('A-Za-z', 'N-ZA-Mn-za-m') }
